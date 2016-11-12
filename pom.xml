@@ -206,16 +206,28 @@
             <groupId>org.apache.hive</groupId>
             <artifactId>hive-common</artifactId>
             <version>2.1.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.eclipse.jetty.aggregate</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-service -->
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.hive/hive-service &ndash;&gt;-->
         <dependency>
             <groupId>org.apache.hive</groupId>
             <artifactId>hive-service</artifactId>
             <version>2.1.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.eclipse.jetty.aggregate</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-jdbc -->
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.hive/hive-jdbc &ndash;&gt;-->
         <dependency>
             <groupId>org.apache.hive</groupId>
             <artifactId>hive-jdbc</artifactId>
