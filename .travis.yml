@@ -7,3 +7,4 @@ jdk:
 
 before_install:
   - chmod +x mvnw
+  - chmod +x mvn
