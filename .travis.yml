@@ -7,7 +7,3 @@ jdk:
 
 before_install:
   - chmod +x mvnw
-
-install:
-- mvn -N io.takari:maven:wrapper -Dmaven=3.2.5
-- ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
