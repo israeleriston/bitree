@@ -69,3 +69,7 @@ nbactions.xml
 .gitignore
 .idea/
 bitree.iml
+
+# Maven Wrapper
+######################
+!maven-wrapper.jar
